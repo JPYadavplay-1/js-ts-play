@@ -1,0 +1,29 @@
+{
+  "name": "js-ts-play",
+  "version": "1.0.0",
+  "description": "A Practice Repository for JS and TS Playwright",
+  "main": "file01.js",
+  "scripts": {
+    "run-js": "node file01.js",
+    "run-ts": "npx tsc fileTs.ts && node fileTs.js",
+    "run-both": "npm run run-js && npm run run-ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPYadavplay-1/js-ts-play.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JPYadavplay-1/js-ts-play/issues"
+  },
+  "homepage": "https://github.com/JPYadavplay-1/js-ts-play#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
